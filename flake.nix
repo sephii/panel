@@ -3,7 +3,7 @@
 
   inputs = {
     dream2nix = {
-      url = "github:nix-community/dream2nix";
+      url = "github:nix-community/dream2nix?ref=legacy";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
